@@ -1,0 +1,23 @@
+/*
+ *	Author:  
+ *  Date: 
+*/
+
+import pkg.*;
+import java.util.Scanner;
+import java.util.Random;
+
+
+class starter {
+	public static void main(String args[]) {
+		// Your code goes below here
+		Scanner sc = new Scanner(System.in);
+		System.out.println("enter a word: ");
+		String s = sc.nextLine();
+		for(int i = 0; i < s.length(); i++){
+			System.out.println(s.substring(i, i+1));
+		}
+
+		
+	}
+}
